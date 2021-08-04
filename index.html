@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sciencific Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=STIX+Two+Text&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main class="calculator">
+        <header>
+            <div>Advance Calculator With Memory</div>
+        </header>
+        <textarea class='calculator-input' id='calculator-input'></textarea>
+        <div class="row-buttons">
+            <button class="row-button" id="row-btn-1">Start</button>
+            <button class="row-button" id='row-btn-2'>clear</button>
+        </div>
+        <div class='keypad'>
+            <div class="keys" id='keys'>
+                <button class='calc-key' data-keyvalue='&Sqrt;'>&Sqrt;x</button>
+                <button class='calc-key' data-keyvalue='^'>x<sup>2</sup></button>
+                <button class='calc-key' data-keyvalue='7'>7</button> <button class='calc-key'
+                    data-keyvalue='8'>8</button> <button class='calc-key' data-keyvalue='9'>9</button> <button
+                    class='calc-key' data-keyvalue='&divide;'>&divide;</button> <button class='calc-key'
+                    data-keyvalue='sin'>sin</button> <button class='calc-key' data-keyvalue='log'>log</button> <button
+                    class='calc-key' data-keyvalue='4'>4</button> <button class='calc-key' data-keyvalue='5'>5</button>
+                <button class='calc-key' data-keyvalue='6'>6</button> <button class='calc-key'
+                    data-keyvalue='*'>x</button> <button class='calc-key' data-keyvalue='cos'>cos</button> <button
+                    class='calc-key' data-keyvalue='hex'>hex</button> <button class='calc-key'
+                    data-keyvalue='1'>1</button> <button class='calc-key' data-keyvalue='2'>2</button> <button
+                    class='calc-key' data-keyvalue='3'>3</button> <button class='calc-key' data-keyvalue='-'>-</button>
+                <button class='calc-key' data-keyvalue='tan'>tan</button> <button class='calc-key'
+                    data-keyvalue='bin'>bin</button> <button class='calc-key' data-keyvalue='.'>.</button> <button
+                    class='calc-key' data-keyvalue='0'>0</button> <button class='calc-key' data-keyvalue='='>=</button>
+                <button class='calc-key' data-keyvalue='+'>+</button> <button class='calc-key'
+                    data-keyvalue='&Pi;'>&Pi;</button> <button class='calc-key' data-keyvalue='asin'>asin</button>
+                <button class='calc-key' data-keyvalue='acos'>acos</button> <button class='calc-key'
+                    data-keyvalue='atan'>atan</button>
+                <button class='calc-key' data-keyvalue='ANS'>ANS</button> <button class='calc-key'
+                    data-keyvalue='ex'>e<sup class="exp-sup">x</sup></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
