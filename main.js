@@ -17,10 +17,11 @@ function calculateInput(e) {
   text = text.replace(/\u00F7/g, "/");
   let p = Math.PI.toString();
   text = text.replace(/\u03C0/g, p);
-  let found = text.match(/\u221A\d+/g);
-  found.forEach((item) => {
-    let count = 0;
-  });
+  //   let found = text.match(/\u221A\d+/g);
+  //   found.forEach((item) => {
+  //     let count = 0;
+  //   });
+  result = eval(text);
   output.innerHTML += `\n\n\t${result}`;
   e.stopImmediatePropagation();
 }
