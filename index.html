@@ -19,10 +19,13 @@
         <header>
             <div>Advance Calculator With Memory</div>
         </header>
-        <textarea class='calculator-input' id='calculator-input'></textarea>
+        <div class='calculator-input' id='calculator-input'>
+            <div class="input"></div>
+            <div class="output"></div>
+        </div>
         <div class="row-buttons">
             <button class="row-button" id="row-btn-1">Start</button>
-            <button class="row-button" id='row-btn-2'>clear</button>
+            <button class="row-button" id='clearBtn'>clear</button>
         </div>
         <div class='keypad'>
             <div class="keys" id='keys'>
@@ -40,9 +43,10 @@
                     class='calc-key' data-keyvalue='3'>3</button> <button class='calc-key' data-keyvalue='-'>-</button>
                 <button class='calc-key' data-keyvalue='tan'>tan</button> <button class='calc-key'
                     data-keyvalue='bin'>bin</button> <button class='calc-key' data-keyvalue='.'>.</button> <button
-                    class='calc-key' data-keyvalue='0'>0</button> <button class='calc-key' data-keyvalue='='>=</button>
+                    class='calc-key' data-keyvalue='0'>0</button> <button id='equalsBtn' class='calc-key'
+                    data-keyvalue='='>=</button>
                 <button class='calc-key' data-keyvalue='+'>+</button> <button class='calc-key'
-                    data-keyvalue='&Pi;'>&Pi;</button> <button class='calc-key' data-keyvalue='asin'>asin</button>
+                    data-keyvalue='&pi;'>&pi;</button> <button class='calc-key' data-keyvalue='asin'>asin</button>
                 <button class='calc-key' data-keyvalue='acos'>acos</button> <button class='calc-key'
                     data-keyvalue='atan'>atan</button>
                 <button class='calc-key' data-keyvalue='ANS'>ANS</button> <button class='calc-key'
